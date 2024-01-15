@@ -2,6 +2,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faGoogle, faTwitter, faGithub } from '@fortawesome/free-brands-svg-icons'
 
 const Form = () => {
+    console.log(import.meta.env.VITE_HOLA_MUNDO);
     return(
         <div className="w-96 h-auto bg-white rounded-lg shadow-2xl flex flex-col items-center p-8 gap-y-4">
             <h1 className="text-3xl font-bold text-red-300 font-sans">Create Account</h1>
