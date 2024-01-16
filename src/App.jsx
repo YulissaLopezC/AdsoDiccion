@@ -1,10 +1,14 @@
 import './App.css'
-import Form from './components/form'
+import Form from './components/Form'
+import { Results } from './components/Results'
 
 function App() {
 
   return (
-    <Form/>
+    <>
+      <Form/>
+      <Results/>
+    </>
   )
 }
 
