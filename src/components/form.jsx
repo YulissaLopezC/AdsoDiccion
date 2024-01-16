@@ -31,13 +31,9 @@ const Form = () => {
                         <li className="flex items-center flex-col">
                             <button type="submit" className="bg-rose-500 hover:bg-rose-300 text-white font-bold py-2 px-8 rounded-lg">Register</button>
                         </li>
-                    
                 </fieldset>
             </form>
-
-            
         </div>
     )
 }
-
 export default Form
