@@ -1,15 +1,13 @@
-import './App.css'
-import Form from './components/Form'
-import { Results } from './components/Results'
+import React from 'react';
+import './App.css';
+import Form from './components/Form';
+import { Results } from './components/Results';
 
-function App() {
-
+export default function App() {
   return (
     <>
-      <Form/>
-      <Results/>
+      <Form />
+      <Results />
     </>
-  )
+  );
 }
-
-export default App
