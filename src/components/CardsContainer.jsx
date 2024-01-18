@@ -15,16 +15,19 @@ export default function CardsContainer() {
 
   return (
 
-    <>
+    <div className="flex flex-col gap-y-6">
       {
         concepts.map((concept) => {
-          console.log(concept)
           const data = concept.data();
           return (
-            <Card concept={data.concept_name} definition={data.concept_def} />
+            <Card
+              concept={data.concept_name}
+              definition={data.concept_def}
+              key={concept.id}
+            />
           );
         })
       }
-    </>
+    </div>
   );
 }

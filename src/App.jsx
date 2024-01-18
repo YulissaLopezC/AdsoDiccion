@@ -5,7 +5,7 @@ import SearchBar from './components/SearchBar';
 
 export default function App() {
   return (
-    <div className="flex flex-col items-center gap-3 font-mono border-4 h-screen pt-6">
+    <div className="flex flex-col items-center gap-3 font-mono min-h-screen pt-6">
       <h1 className="text-4xl">Diccionario ADSO</h1>
       <SearchBar />
       <CardsContainer />

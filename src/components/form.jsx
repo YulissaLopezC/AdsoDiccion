@@ -10,7 +10,7 @@ export default function Form() {
     try {
       await addDoc(conceptsCol, formData);
     } catch (error) {
-      console.error(error.message);
+      throw new Error(error.message);
     }
   }
 
