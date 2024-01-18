@@ -1,16 +1,14 @@
 import React from 'react';
 import './App.css';
-import Form from './components/form';
-import  Results  from './components/Results';
-import Card from './components/Card';
+import CardsContainer from './components/CardsContainer';
 import SearchBar from './components/SearchBar';
 
 export default function App() {
   return (
-    <div className='flex flex-col items-center gap-3 font-mono border-4 h-screen pt-6'>
-      <h1 className='text-4xl'>Diccionario ADSO </h1>
+    <div className="flex flex-col items-center gap-3 font-mono border-4 h-screen pt-6">
+      <h1 className="text-4xl">Diccionario ADSO</h1>
       <SearchBar />
-      <Card />
+      <CardsContainer />
     </div>
   );
 }
