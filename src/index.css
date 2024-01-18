@@ -4,7 +4,7 @@
 
 body {
   margin: 0;
-  background: rgb(228, 228, 228);
+  background: white;
   font-family: system-ui;
   min-height: 100vh;
   display: flex;
